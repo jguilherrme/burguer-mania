@@ -45,7 +45,7 @@ A identidade visual foi baseada na logo na **Burguer Mania**, utilizando princip
 
 ## Informações
 
-**Disciplina:** Prática de Design
-**Atividade:** Curricularização da Extensão
-**Empresa:** Burguer Mania
-**Local:** Três Fronteiras - SP
+* **Disciplina:** Prática de Design
+* **Atividade:** Curricularização da Extensão
+* **Empresa:** Burguer Mania
+* **Local:** Três Fronteiras - SP
