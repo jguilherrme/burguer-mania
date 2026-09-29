@@ -1,0 +1,35 @@
+@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
+
+:root {
+    --bg:      #0a0a0a;
+    --surface: #151515;
+    --primary: #ffc21a;
+    --text:    #ffffff;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    background: var(--surface);
+}
+
+.categoria {
+    color: var(--primary);
+    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+}
