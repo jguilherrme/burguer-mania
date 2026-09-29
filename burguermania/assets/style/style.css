@@ -1,4 +1,5 @@
 @import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
 
 :root {
     --bg:      #0a0a0a;
@@ -27,9 +28,53 @@ body {
 
 header {
     background: var(--surface);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+footer {
+    background: var(--surface);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
 }
 
 .categoria {
     color: var(--primary);
     font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5rem;
+    font-size: 3rem;
+}
+
+.center {
+    text-align: center;
+    color: var(--primary);
+    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5rem;
+    font-size: 3rem;
+}
+
+.tiny {
+    font-size: 0.8rem;
+    color: var(--text);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+}
+
+.light-icons {
+    filter: brightness(0) invert(1);
+}
+
+.descricao {
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    color: var(--primary);
+    transition: 0.3s;
 }
