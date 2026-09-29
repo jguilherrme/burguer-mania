@@ -1,0 +1,174 @@
+/*—————————— style utilizado apenas no index! ——————————*/
+/*—————————— {Fontes} ——————————*/
+
+@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+/*—————————— {Variavéis} ——————————*/
+
+:root {
+    --bg: #0a0a0a;
+    --surface: #151515;
+    --primary: #ffc21a;
+    --text: #ffffff;
+    --branco-fraco: rgba(255, 255, 255, 0.822);
+}
+
+/*—————————— {Reset} ——————————*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*—————————— {Site} ——————————*/
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+/*—————————— {Body/Padrão} ——————————*/
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+/*—————————— {Header} ——————————*/
+
+header {
+    background: var(--surface);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/*—————————— {Início} ——————————*/
+
+#inicio {
+    background-image: url("../images/home/homepage.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.inicio-right {
+    color: var(--primary);
+    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5rem;
+    font-size: 3rem;
+    text-align: right;
+    line-height: 3.1rem;
+}
+
+.inicio-right-description {
+    padding-top: 2rem;
+    text-align: right;
+    color: var(--text);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.1rem;
+    line-height: 1.9rem;
+    font-size: 2rem;
+}
+
+/*—————————— {Categoria} ——————————*/
+
+.categoria {
+    color: var(--primary);
+    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    letter-spacing: -0.5rem;
+    font-size: 3rem;
+}
+
+/*—————————— {Cores e ajustes} ——————————*/
+
+.cor-branca {
+    color: var(--text);
+}
+
+.cor-laranja {
+    color: var(--primary);
+}
+
+.center {
+    text-align: center;
+    letter-spacing: -0.1rem;
+    font-size: 3rem;
+}
+
+.tiny {
+    font-size: 0.8rem;
+    color: var(--text);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+}
+
+
+/*—————————— {Footer} ——————————*/
+
+footer {
+    background: var(--surface);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.center-footer {
+    text-align: center;
+    letter-spacing: -0.1rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.light-icons {
+    size: 2px;
+    filter: brightness(0) invert(1);
+}
+
+/*—————————— {Decorações CSS} ——————————*/
+
+#info a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--primary);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#info a:hover{
+    transition: 0.5s;
+    color: var(--text);
+}
+
+#info p {
+    color: var(--text);
+    font-size: 0.85rem;
+}
+
+#info img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.center-footer a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: 0.5s;
+}
+
+.center-footer a:hover {
+    transition: 0.5s;
+    color: var(--text);
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--primary);
+    transition: 0.3s;
+}
