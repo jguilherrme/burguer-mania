@@ -37,6 +37,14 @@ body {
     line-height: 1.5;
 }
 
+/*—————————— {Logo} ——————————*/
+
+.logo {
+    width: 12rem;
+    height: auto;
+    padding: 1rem;
+}
+
 /*—————————— {Header} ——————————*/
 
 header {
@@ -44,6 +52,16 @@ header {
     font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
 }
+
+hr {
+    background: var(--primary);
+    height: 0.1rem;
+    border: none;
+}
+
+/*—————————— {Nav (header) } ——————————*/
+
+
 
 /*—————————— {Início} ——————————*/
 
