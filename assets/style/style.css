@@ -40,17 +40,17 @@ body {
 /*—————————— {Logo} ——————————*/
 
 .logo {
-    width: 12rem;
+    width: 250px;
     height: auto;
-    padding: 1rem;
 }
 
 /*—————————— {Header} ——————————*/
-
-header {
-    background: var(--surface);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin-bottom: -17px  ;
 }
 
 hr {
@@ -60,7 +60,13 @@ hr {
 }
 
 /*—————————— {Nav (header) } ——————————*/
-
+#nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    padding-top: 70px;
+}
 
 
 /*—————————— {Início} ——————————*/
