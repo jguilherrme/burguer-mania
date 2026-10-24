@@ -125,12 +125,6 @@ footer {
     line-height: 1.1rem;
 }
 
-.light-icons {
-    size: 2px;
-    filter: brightness(0) invert(1);
-}
-
-
 /*—————————— {Decorações CSS} ——————————*/
 
 #info a {
