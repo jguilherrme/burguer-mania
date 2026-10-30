@@ -39,32 +39,45 @@ body {
 
 /*—————————— {Logo} ——————————*/
 
+
 .logo {
-    width: 12rem;
+    width: 200px;
     height: auto;
-    padding: 1rem;
 }
+
 
 /*—————————— {Header} ——————————*/
 
 header {
-    background: var(--surface);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-}
-
-hr {
-    background: var(--primary);
-    height: 0.1rem;
-    border: none;
-}
-
-#top-menu {
-    background: var(--surface);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: var(--bg);
+    z-index: 1000;
+    border-bottom: 3.6px solid var(--primary);
+}
+
+/*—————————— {nav_Header} ——————————*/
+#nav_header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    padding-top: 70px;
+}
+a{
+    text-decoration: none;
+    color: #fff8e7;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding: 10px 5px;
+    transition: 0.3s;
+}
+a:hover{
+    color: #d4af37;
 }
 
 /*—————————— {Categoria} ——————————*/
@@ -76,17 +89,6 @@ hr {
     font-size: 3rem;
     text-align: center;
 }
-
-/*—————————— {Descrição-Lanches} ——————————*/
-
-.descricao {
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-}
-
-/*—————————— {Preço-Lanches} ——————————*/
-
-
 
 /*—————————— {Cores e ajustes} ——————————*/
 
@@ -162,14 +164,45 @@ footer {
     color: var(--text);
 }
 
-nav a {
-    color: var(--text);
-    text-decoration: none;
-    padding: 0.5rem;
-    transition: 0.3s;
-}
 
-nav a:hover {
-    color: var(--primary);
-    transition: 0.3s;
+
+/* cards */
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;      
+  padding: 20px;
+  justify-content: center;
+}
+.card {
+  width: 280px;
+  background-color: var(--surface);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-family: sans-serif;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.card:hover {
+  transform: translateY(-8px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+}
+.card span {
+    font-weight: bold;
+    color: #a51c30;
+    font-size: 18px;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.card-info img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 15px;
 }

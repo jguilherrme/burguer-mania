@@ -53,14 +53,10 @@ header{
     justify-content: space-between;
     padding: 10px 40px;
     background-color: var(--bg);
-    z-index: 1000
+    z-index: 1000;
+    border-bottom: 3.6px solid var(--primary);
 }
 
-hr {
-    background: var(--primary);
-    height: 0.1rem;
-    border: none;
-}
 
 /*—————————— {Nav (header) } ——————————*/
 #nav{
@@ -70,10 +66,18 @@ hr {
     font-size: 25px;
     padding-top: 70px;
 }
-#linha-jao{
-    width: 246.3%;
-    margin-left: -140%
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    padding: 0.5rem;
+    transition: 0.3s;
 }
+
+nav a:hover {
+    color: var(--primary);
+    transition: 0.3s;
+}
+
 /*___________{banner}___________*/
 
 
@@ -227,17 +231,6 @@ footer {
     color: var(--text);
 }
 
-nav a {
-    color: var(--text);
-    text-decoration: none;
-    padding: 0.5rem;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: var(--primary);
-    transition: 0.3s;
-}
 
 
 
