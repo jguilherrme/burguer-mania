@@ -49,6 +49,19 @@ body {
 /*—————————— {Header} ——————————*/
 
 header {
+position: sticky;
+top: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 40px;
+background-color: var(--bg);
+z-index: 1000;
+border-bottom: 3.6px solid var(--primary);
+}
+
+/*—————————— {nav_Header} ——————————*/
+header {
     position: sticky;
     top: 0;
     display: flex;
@@ -60,25 +73,50 @@ header {
     border-bottom: 3.6px solid var(--primary);
 }
 
-/*—————————— {nav_Header} ——————————*/
-#nav_header {
+/*—————————— {Navegação} ——————————*/
+
+.nav-principal {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: var(--bg);
+    z-index: 1000;
+    border-bottom: 3.6px solid var(--primary);
+}
+
+.nav-principal {
+    display: flex;
+    align-items: flex-end;
     gap: 20px;
-    font-size: 25px;
-    padding-top: 70px;
+    align-self: stretch;
 }
-a{
+
+.nav-principal a {
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
     text-decoration: none;
-    color: #fff8e7;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
+    font-weight: 400;
+    line-height: 1;
     padding: 10px 5px;
-    transition: 0.3s;
+    white-space: nowrap;
 }
-a:hover{
-    color: #d4af37;
+
+.nav-principal a:hover {
+    color: var(--primary);
 }
+
 
 /*—————————— {Categoria} ——————————*/
 
@@ -111,59 +149,6 @@ a:hover{
     color: var(--text);
     font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
 }
-
-/*—————————— {Footer} ——————————*/
-
-footer {
-    background: var(--surface);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
-}
-
-.center-footer {
-    text-align: center;
-    letter-spacing: -0.1rem;
-    font-size: 1.1rem;
-    line-height: 1.1rem;
-}
-
-/*—————————— {Decorações CSS} ——————————*/
-
-#info a {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    color: var(--primary);
-    text-decoration: none;
-    transition: 0.5s;
-}
-
-#info a:hover{
-    transition: 0.5s;
-    color: var(--text);
-}
-
-#info p {
-    color: var(--text);
-    font-size: 0.85rem;
-}
-
-#info img {
-    width: 1.25rem;
-    height: 1.25rem;
-}
-
-.center-footer a {
-    text-decoration: none;
-    color: var(--primary);
-    transition: 0.5s;
-}
-
-.center-footer a:hover {
-    transition: 0.5s;
-    color: var(--text);
-}
-
 
 
 /* cards */
@@ -205,4 +190,92 @@ footer {
     object-fit: contain;
     display: block;
     margin: 0 auto 15px;
+}
+
+/* footer */
+/*—————————— {Footer} ——————————*/
+
+footer {
+    background: var(--surface);
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.center-footer {
+    text-align: center;
+    letter-spacing: -0.1rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.footer-img {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    padding: 40px;
+    margin-bottom: -40px;
+}
+
+.footer-desc {
+    text-align: start;
+    padding-left: 30px;
+    color: var(--text);
+}
+
+#footer-colaboraters {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+    margin-top: -180px;
+    margin-bottom: 50px;
+}
+
+#footer-colaboraters a {
+    display: inline-block;
+}
+
+/*—————————— {Decorações CSS} ——————————*/
+#info {
+    display: grid;
+    justify-content: end;
+    margin-top: -210px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    gap: 5px;
+}
+
+#info a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--primary);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#info a:hover{
+    transition: 0.5s;
+    color: var(--text);
+}
+
+#info p {
+    color: var(--text);
+    font-size: 0.85rem;
+}
+
+#info img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.center-footer a {
+    text-decoration: none;
+    color: var(--primary);
+    transition: 0.5s;
+}
+
+.center-footer a:hover {
+    transition: 0.5s;
+    color: var(--text);
 }
