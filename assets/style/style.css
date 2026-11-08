@@ -3,7 +3,7 @@
 
 @import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
 @import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800;900&family=Permanent+Marker&display=swap');
+@import url(https://db.onlinewebfonts.com/c/9d072523e092009e96493932260a18fe?family=HW+Jesco3+DB);
 /*—————————— {Variavéis} ——————————*/
 
 :root {
@@ -33,7 +33,7 @@ html {
 body {
     background: var(--bg);
     color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
@@ -45,26 +45,26 @@ body {
 }
 
 /*—————————— {Header} ——————————*/
-header{
-    position: sticky;
-    top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 40px;
-    background-color: var(--bg);
-    z-index: 1000;
-    border-bottom: 3.6px solid var(--primary);
+
+header {
+position: sticky;
+top: 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 40px;
+background-color: var(--bg);
+z-index: 1000;
+border-bottom: 3.6px solid var(--primary);
 }
 
-
-/*—————————— {Nav (header) } ——————————*/
 /*—————————— {Navegação} ——————————*/
 
 .nav-principal {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 20px;
+    align-self: stretch;
 }
 
 .nav-principal a {
@@ -78,15 +78,20 @@ header{
     line-height: 1;
     padding: 10px 5px;
     white-space: nowrap;
-    padding-top: 71px;
+    transition: 0.5s
 }
 
 .nav-principal a:hover {
     color: var(--primary);
+    transition: 0.5s;
 }
 
-
 /*—————————— {Início} ——————————*/
+
+.fonte-banner {
+    font-family: "HW Jesco3 DB";
+}
+
 .banner {
   min-height: 600px;
   display: flex;
@@ -163,12 +168,16 @@ header{
     letter-spacing: -0.1rem;
     font-size: 3rem;
 }
-.tiny {
+.pequeno {
     font-size: 0.8rem;
     color: var(--text);
     font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
 }
 
+.fonte-circular {
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
 
 /*—————————— {Footer} ——————————*/
 
