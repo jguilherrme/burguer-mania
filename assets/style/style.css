@@ -271,6 +271,46 @@ footer {
     color: var(--text);
 }
 
+/* ----- Avaliações -----*/
+.avaliation-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding-bottom: 30px;
+}
 
+.container-avaliations {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--surface);
+    border: var(--primary) solid 2px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px var(--primary);
+}
+
+.container-avaliations:hover {
+    box-shadow: 0px 4px 10px var(--primary);
+}
+
+
+.container-avaliations img {
+    height: 80px;
+    width: 80px;
+    border: var(--primary) solid 2px;
+    border-radius: 50%;
+}
+
+.avaliations-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.avaliations-info h3, p {
+    margin: 0;
+}
 
 
