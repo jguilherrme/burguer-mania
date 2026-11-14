@@ -23,6 +23,7 @@ burguermania/
 ├── menu/
 ├── style/
 └── index.html
+└── menu.html
 ```
 
 ## Categorias do cardápio
