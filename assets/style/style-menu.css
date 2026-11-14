@@ -3,6 +3,7 @@
 
 @import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
 @import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+@import url(https://db.onlinewebfonts.com/c/9d072523e092009e96493932260a18fe?family=HW+Jesco3+DB);
 
 /*—————————— {Variavéis} ——————————*/
 
@@ -26,6 +27,7 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    scroll-padding-top: 110px;
 }
 
 /*—————————— {Body/Padrão} ——————————*/
@@ -33,7 +35,7 @@ html {
 body {
     background: var(--bg);
     color: var(--text);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
     line-height: 1.5;
 }
 
@@ -43,21 +45,22 @@ body {
 .logo {
     width: 200px;
     height: auto;
+    display: block;
 }
 
 
 /*—————————— {Header} ——————————*/
 
 header {
-position: sticky;
-top: 0;
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px 40px;
-background-color: var(--bg);
-z-index: 1000;
-border-bottom: 3.6px solid var(--primary);
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: var(--bg);
+    z-index: 1000;
+    border-bottom: 3.6px solid var(--primary);
 }
 
 /*—————————— {Navegação} ——————————*/
@@ -65,19 +68,15 @@ border-bottom: 3.6px solid var(--primary);
 .nav-principal {
     display: flex;
     align-items: center;
-    gap: 20px;
-    align-self: stretch;
+    gap: 28px;
 }
 
 .nav-principal a {
-    display: flex;
-    align-items: flex-end;
-    color: #ffffff;
+    position: relative;
+    color: var(--text);
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 1;
+    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    font-size: 0.95rem;
     padding: 10px 5px;
     white-space: nowrap;
     transition: 0.5s
@@ -86,6 +85,16 @@ border-bottom: 3.6px solid var(--primary);
 .nav-principal a:hover {
     color: var(--primary);
     transition: 0.5s;
+}
+
+/*—————————— {Main (imagem lateral)} ——————————*/
+
+main {
+    background-color: var(--bg);
+    background-image: url("../images/home/burguers-caindo.png");
+    background-repeat: no-repeat;
+    background-position: right top;   
+    background-size: auto 100%;       
 }
 
 /*—————————— {Categoria} ——————————*/
@@ -123,30 +132,34 @@ border-bottom: 3.6px solid var(--primary);
 
 /* cards */
 .container-cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;      
-  padding: 20px;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
 }
+
 .card {
-  width: 280px;
-  background-color: var(--surface);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  font-family: sans-serif;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+    width: 280px;
+    background-color: var(--surface);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .card:hover {
-  transform: translateY(-8px); 
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
 }
+
 .card span {
     font-weight: bold;
     color: #a51c30;
     font-size: 18px;
 }
+
 .card img {
     width: 100%;
     height: 180px;
@@ -154,6 +167,7 @@ border-bottom: 3.6px solid var(--primary);
     border-radius: 8px;
     margin-bottom: 15px;
 }
+
 .card-info img {
     width: 40px;
     height: 40px;
@@ -224,7 +238,7 @@ footer {
     transition: 0.5s;
 }
 
-#info a:hover{
+#info a:hover {
     transition: 0.5s;
     color: var(--text);
 }
