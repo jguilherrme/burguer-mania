@@ -69,14 +69,15 @@ header {
     display: flex;
     align-items: center;
     gap: 28px;
+    padding-top: 31px;
 }
 
 .nav-principal a {
     position: relative;
     color: var(--text);
     text-decoration: none;
-    font-family: var(--fonte-lulo);
-    font-size: 0.95rem;
+    font-family: var(--fonte-circular);
+    font-size: 1.2rem;
     padding: 10px 5px;
     white-space: nowrap;
     transition: 0.5s
@@ -347,4 +348,29 @@ main {
 .avaliations-info h3,
 p {
     margin: 0;
+}
+#avaliacoes{
+  max-width: 70%;
+  margin: 2rem auto;
+  padding: 1.5rem 1.75rem;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  background: var(--surface);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  text-align: justify;
+}
+/*—————————— {Historia} ——————————*/
+#sobre{
+  max-width: 70%;
+  margin: 2rem auto;
+  padding: 1.5rem 1.75rem;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  background: var(--surface);
+  border-left: 4px solid var(--primary);
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  text-align: justify;
 }
