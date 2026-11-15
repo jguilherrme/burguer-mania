@@ -69,6 +69,7 @@ header {
     display: flex;
     align-items: center;
     gap: 28px;
+    padding-top: 31px;
 }
 
 .nav-principal a {
