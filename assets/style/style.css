@@ -13,7 +13,8 @@
     --primary: #ffc21a;
     --text: #ffffff;
     --branco-fraco: rgba(255, 255, 255, 0.822);
-    --erro: #ff6b6b;
+    --fonte-lulo: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    --fonte-circular: "Circular Std Book", Arial, Helvetica, sans-serif;
 }
 
 /*—————————— {Reset} ——————————*/
@@ -36,7 +37,7 @@ html {
 body {
     background: var(--bg);
     color: var(--text);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-circular);
     line-height: 1.5;
 }
 
@@ -74,7 +75,7 @@ header {
     position: relative;
     color: var(--text);
     text-decoration: none;
-    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-lulo);
     font-size: 0.95rem;
     padding: 10px 5px;
     white-space: nowrap;
@@ -143,7 +144,7 @@ main {
 
 .categoria {
     color: var(--primary);
-    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-lulo);
     letter-spacing: -0.5rem;
     font-size: 3rem;
 }
@@ -167,11 +168,11 @@ main {
 .pequeno {
     font-size: 0.8rem;
     color: var(--text);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-circular);
 }
 
 .fonte-circular {
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-circular);
     font-size: 1.2rem;
 }
 
@@ -180,7 +181,7 @@ main {
 .footer {
     background: var(--surface);
     border-top: 3.6px solid var(--primary);
-    font-family: "Circular Std Book", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-circular);
 }
 
 .footer-grid {
@@ -202,7 +203,7 @@ main {
 .footer-titulo {
     margin-bottom: 16px;
     color: var(--text);
-    font-family: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    font-family: var(--fonte-lulo);
     font-weight: normal;
     font-size: 1rem;
     letter-spacing: 0.04em;
@@ -305,7 +306,7 @@ main {
     color: var(--text);
 }
 
-/* ----- Avaliações -----*/
+/*—————————— {Avaliações} ——————————*/
 .avaliation-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
