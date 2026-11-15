@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Burguer Mania</title>
+    <title>Cardápio | Burguer Mania</title>
     <link rel="stylesheet" href="assets/style/style-menu.css">
     <link rel="icon" href="assets/images/favicon/favicon.png" type="image/png">
 </head>
@@ -27,179 +27,252 @@
     </header>
 
     <main id="cardapio">
-        <h1 class="categoria-menu"> X-BURGUERS</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="" alt="X-Burguer">
-                <h2>X-Burguer</h2>
-                <p>Pão, hambúrguer e mussarela.</p>
-                <span>R$ 18,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Salada">
-                <h2>X-Salada</h2>
-                <p>Pão, hambúrguer, mussarela, alface e tomate.</p>
-                <span>R$ 19,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Egg">
-                <h2>X-Egg</h2>
-                <p>Pão, hambúrguer, mussarela, alface, tomate e ovo.</p>
-                <span>R$ 21,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Calabresa">
-                <h2>X-Calabresa</h2>
-                <p>Pão, hambúrguer, mussarela e calabresa.</p>
-                <span>R$ 21,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="x-bacon">
-                <h2>X-bacon</h2>
-                <p>Pão, hambúrguer, mussarela, alface, tomate e bacon em cubos.</p>
-                <span>R$ 22,90</span>
-            </div>
-            <div class="card">
-                <img src="assets/images/comidas/xburguer/x-tudo.jpeg" alt="X-Tudo">
-                <h2>X-Tudo</h2>
-                <p>Pão, hambúrguer, mussarela, alface, tomate, ovo e bacon em cubos.</p>
-                <span>R$ 23,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Tudo 3 Queijos">
-                <h2>X-Tudo 3 Queijos</h2>
-                <p>Pão, hambúrguer, mussarela, alface, tomate, bacon em cubos, cheddar,
-                    cream cheese e requeijão.</p>
-                <span>R$ 26,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Tudo Duplo">
-                <h2>X-Tudo Duplo</h2>
-                <p>Pão, dois hambúrgueres, ovo, mussarela, alface, tomate e bacon em
-                    cubos.</p>
-                <span>R$ 28,90</span>
-            </div>
-            <div class="card">
-                <img src="" alt="X-Tudo Completo">
-                <h2>X-Tudo Completo</h2>
-                <p>Pão, hambúrguer, dois ovos, mussarela, alface, tomate, bacon,
-                    calabresa, cebola roxa, batata palha, milho, duas salsichas e cheddar.</p>
-                <span>R$ 29,90</span>
-            </div>
-            <div class="card">
-                <img src="assets/images/comidas/xburguer/x-tudo-completo-artesanal.jpeg"
-                    alt="X-Tudo Completo Artesanal">
-                <h2>X-Tudo Completo Artesanal</h2>
-                <p>Pão, hambúrguer artesanal 120 gramas, dois ovos, duas
-                    salsichas grelhadas, bacon, alface, tomate, cebola roxa na chapa, milho, batata palha,
-                    queijo e cheddar.</p>
-                <span>R$ 29,90</span>
-            </div>
-            <div class="card">
-                <img src="assets/images/comidas/xburguer/x-tudo-3-queijo-artesanal.jpeg"
-                    alt="X-Tudo 3 Queijos Artesanal">
-                <h2>X-Tudo 3 Queijos Artesanal</h2>
-                <p>Pão, hambúrguer artesanal 120 gramas, bacon, alface,
-                    tomate, cebola roxa na chapa, milho, batata palha, mussarela, cheddar, requeijão e cream
-                    cheese.</p>
-                <span>R$ 26,90</span>
-            </div>
+        <div class="menu-topo container">
+            <h1 class="titulo-secao">Cardápio</h1>
         </div>
-        <h1 class="categoria-menu"> COMBOS</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="assets/images/comidas/combos/combo-x-tudo.jpeg" alt="combo-1">
-                <h2>Combo X-Tudo</h2>
-                <p>2 X-Tudos + 1 Coca-Cola Litro.</p>
-                <span>R$ 49,90</span>
-            </div>
 
-            <div class="card">
-                <img src="assets/images/comidas/combos/combo-x-bacon.jpeg" alt="Combo-2">
-                <h2>Combo X-Bacon</h2>
-                <p>2 X-Bacons + 1 Coca-Cola Litro.</p>
-                <span>R$ 47,90</span>
+        <nav class="categorias" aria-label="Categorias do cardápio">
+            <div class="container">
+                <a href="#x-burguers">X-Burguers</a>
+                <a href="#combos">Combos</a>
+                <a href="#hot-dogs">Hot Dogs Especiais</a>
+                <a href="#batatas">Batatas</a>
+                <a href="#burguer-mania">Burguer Mania</a>
+                <a href="#bebidas">Bebidas</a>
             </div>
-            <div class="card">
-                <img src="assets/images/comidas/combos/combo-xsalada.jpeg" alt="combo-3">
-                <h2>Combo X-Salada</h2>
-                <p>2 X-Saladas + 1 Coca-Cola Litro.</p>
-                <span>R$ 45,90</span>
+        </nav>
+
+        <section class="categoria-bloco container" id="x-burguers">
+            <h2 class="titulo-secao categoria-menu">X-Burguers</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/X-Burguer.png" alt="X-Burguer">
+                    <div class="card-corpo">
+                        <h3>X-Burguer</h3>
+                        <p>Pão, hambúrguer e mussarela.</p>
+                        <span class="preco">R$ 18,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-salada.jpeg" alt="X-Salada">
+                    <div class="card-corpo">
+                        <h3>X-Salada</h3>
+                        <p>Pão, hambúrguer, mussarela, alface e tomate.</p>
+                        <span class="preco">R$ 19,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-egg.jpeg" alt="X-Egg">
+                    <div class="card-corpo">
+                        <h3>X-Egg</h3>
+                        <p>Pão, hambúrguer, mussarela, alface, tomate e ovo.</p>
+                        <span class="preco">R$ 21,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-calabresa.jpeg" alt="X-Calabresa">
+                    <div class="card-corpo">
+                        <h3>X-Calabresa</h3>
+                        <p>Pão, hambúrguer, mussarela e calabresa.</p>
+                        <span class="preco">R$ 21,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-bacon.jpeg" alt="X-Bacon">
+                    <div class="card-corpo">
+                        <h3>X-Bacon</h3>
+                        <p>Pão, hambúrguer, mussarela, alface, tomate e bacon em cubos.</p>
+                        <span class="preco">R$ 22,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-tudo.png" alt="X-Tudo">
+                    <div class="card-corpo">
+                        <h3>X-Tudo</h3>
+                        <p>Pão, hambúrguer, mussarela, alface, tomate, ovo e bacon em cubos.</p>
+                        <span class="preco">R$ 23,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/XTudo-3-Queijos-Artesanal.jpeg" alt="X-Tudo 3 Queijos">
+                    <div class="card-corpo">
+                        <h3>X-Tudo 3 Queijos</h3>
+                        <p>Pão, hambúrguer, mussarela, alface, tomate, bacon em cubos, cheddar, cream cheese e
+                            requeijão.</p>
+                        <span class="preco">R$ 26,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/X-Tudo-Duplo.png" alt="X-Tudo Duplo">
+                    <div class="card-corpo">
+                        <h3>X-Tudo Duplo</h3>
+                        <p>Pão, dois hambúrgueres, ovo, mussarela, alface, tomate e bacon em cubos.</p>
+                        <span class="preco">R$ 28,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/X-Tudo-Completo.png" alt="X-Tudo Completo">
+                    <div class="card-corpo">
+                        <h3>X-Tudo Completo</h3>
+                        <p>Pão, hambúrguer, dois ovos, mussarela, alface, tomate, bacon, calabresa, cebola roxa, batata
+                            palha, milho, duas salsichas e cheddar.</p>
+                        <span class="preco">R$ 29,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-tudo-completo-artesanal.jpeg"
+                        alt="X-Tudo Completo Artesanal">
+                    <div class="card-corpo">
+                        <h3>X-Tudo Completo Artesanal</h3>
+                        <p>Pão, hambúrguer artesanal 120 gramas, dois ovos, duas salsichas grelhadas, bacon, alface,
+                            tomate, cebola roxa na chapa, milho, batata palha, queijo e cheddar.</p>
+                        <span class="preco">R$ 29,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/xburguer/x-tudo-3-queijo-artesanal.png" alt="X-Tudo 3 Queijos Artesanal">
+                    <div class="card-corpo">
+                        <h3>X-Tudo 3 Queijos Artesanal</h3>
+                        <p>Pão, hambúrguer artesanal 120 gramas, bacon, alface, tomate, cebola roxa na chapa, milho,
+                            batata palha, mussarela, cheddar, requeijão e cream cheese.</p>
+                        <span class="preco">R$ 26,90</span>
+                    </div>
+                </article>
             </div>
-        </div>
-        <h1 class="categoria-menu"> Hot Dogs Especiais</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="" alt="Hot Dog de Bacon">
-                <h2>Hot Dog de Bacon</h2>
-                <p>Pão de hambúrguer super macio, duas salsichas, milho, queijo derretido,
-                    bacon, batata palha, maionese, ketchup e mostarda.</p>
-                <span>R$ 18,90</span>
+        </section>
+
+        <section class="categoria-bloco container" id="combos">
+            <h2 class="titulo-secao categoria-menu">Combos</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/combos/combo-x-tudo.jpg" alt="Combo X-Tudo">
+                    <div class="card-corpo">
+                        <h3>Combo X-Tudo</h3>
+                        <p>2 X-Tudos + 1 Coca-Cola Litro.</p>
+                        <span class="preco">R$ 49,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/combos/combo-x-bacon.jpg" alt="Combo X-Bacon">
+                    <div class="card-corpo">
+                        <h3>Combo X-Bacon</h3>
+                        <p>2 X-Bacons + 1 Coca-Cola Litro.</p>
+                        <span class="preco">R$ 47,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/combos/combo-xsalada.png" alt="Combo X-Salada">
+                    <div class="card-corpo">
+                        <h3>Combo X-Salada</h3>
+                        <p>2 X-Saladas + 1 Coca-Cola Litro.</p>
+                        <span class="preco">R$ 45,90</span>
+                    </div>
+                </article>
             </div>
-            <div class="card">
-                <img src="" alt="Hot Dog de Calabresa">
-                <h2>Hot Dog de Calabresa</h2>
-                <p>Pão de hambúrguer super macio, duas salsichas, milho, queijo derretido,
-                    calabresa fatiada, batata palha, maionese, ketchup e mostarda.</p>
-                <span>R$ 18,90</span>
+        </section>
+
+        <section class="categoria-bloco container" id="hot-dogs">
+            <h2 class="titulo-secao categoria-menu">Hot Dogs Especiais</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/hot-dogs-especiais/hotdog-de-bacon.jpeg" alt="Hot Dog de Bacon">
+                    <div class="card-corpo">
+                        <h3>Hot Dog de Bacon</h3>
+                        <p>Pão de hambúrguer super macio, duas salsichas, milho, queijo derretido, bacon, batata palha,
+                            maionese, ketchup e mostarda.</p>
+                        <span class="preco">R$ 18,90</span>
+                    </div>
+                </article>
+                <article class="card card-sem-foto">
+                    <div class="foto-vazia"><img src="assets/images/comidas/hot-dogs-especiais/Hot-Dog-Calabresa.png"
+                            alt="Hot Dog de Calabresa">
+                        <div class="card-corpo">
+                            <h3>Hot Dog de Calabresa</h3>
+                            <p>Pão de hambúrguer super macio, duas salsichas, milho, queijo derretido, calabresa
+                                fatiada, batata palha, maionese, ketchup e mostarda.</p>
+                            <span class="preco">R$ 18,90</span>
+                        </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/hot-dogs-especiais/x-dog-salada.jpeg" alt="X-Dog Salada">
+                    <div class="card-corpo">
+                        <h3>X-Dog Salada</h3>
+                        <p>Pão de hambúrguer super macio, duas salsichas, alface, tomate, milho, queijo derretido,
+                            batata palha, maionese, ketchup e mostarda.</p>
+                        <span class="preco">R$ 18,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/hot-dogs-especiais/x-dog-frango.jpeg" alt="X-Dog Frango">
+                    <div class="card-corpo">
+                        <h3>X-Dog Frango</h3>
+                        <p>Pão de hambúrguer super macio, duas salsichas, frango desfiado, alface, tomate, milho, queijo
+                            derretido, batata palha, maionese, ketchup e mostarda.</p>
+                        <span class="preco">R$ 18,90</span>
+                    </div>
+                </article>
             </div>
-            <div class="card">
-                <img src="" alt="X-Dog Salada">
-                <h2>X-Dog Salada</h2>
-                <p>Pão de hambúrguer super macio, duas salsichas, alface, tomate, milho,
-                    queijo derretido, batata palha, maionese, ketchup e mostarda.</p>
-                <span>R$ 18,90</span>
+        </section>
+
+        <section class="categoria-bloco container" id="batatas">
+            <h2 class="titulo-secao categoria-menu">Batatas</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/batatas/batata.jpeg" alt="Porção de Batata">
+                    <div class="card-corpo">
+                        <h3>Porção de Batata</h3>
+                        <p>1Kg de Batatas, Cheddar e Bacon em cubos.</p>
+                        <span class="preco">R$ 37,90</span>
+                    </div>
+                </article>
             </div>
-            <div class="card">
-                <img src="assets/images/comidas/xburguer/" alt="X-Dog Salada">
-                <h2>X-Dog Frango</h2>
-                <p>Pão de hambúrguer super macio, duas salsichas, frango desfiado, alface,
-                    tomate, milho, queijo derretido, batata palha, maionese, ketchup e mostarda.</p>
-                <span>R$ 18,90</span>
+        </section>
+
+        <section class="categoria-bloco container" id="burguer-mania">
+            <h2 class="titulo-secao categoria-menu">Burguer Mania</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/burguer-mania/Mania-Turbo.jpeg" alt="Mania Turbo">
+                    <div class="card-corpo">
+                        <h3>Mania Turbo</h3>
+                        <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola roxa na chapa e
+                            cheddar.</p>
+                        <span class="preco">R$ 29,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/burguer-mania/Mania-3-Queijos.jpeg" alt="Mania 3 Queijos">
+                    <div class="card-corpo">
+                        <h3>Mania 3 Queijos</h3>
+                        <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola roxa na chapa,
+                            cheddar, requeijão e cream cheese.</p>
+                        <span class="preco">R$ 29,90</span>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/comidas/burguer-mania/Mania-Cream-Cheese.jpeg" alt="Mania Cream Cheese">
+                    <div class="card-corpo">
+                        <h3>Mania Cream Cheese</h3>
+                        <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola roxa na chapa,
+                            barbecue e cream cheese.</p>
+                        <span class="preco">R$ 29,90</span>
+                    </div>
+                </article>
             </div>
-        </div>
-        <h1 class="categoria-menu">Batatas</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="assets/images/comidas/batatas/batata.jpeg"
-                    alt="Porção de Batata 1Kg com cheddar e Bacon em cubos">
-                <h2>Porção de Batata</h2>
-                <p>1Kg de Batatas, Cheddar e Bacon em cubos.</p>
-                <span>R$ 37,90</span>
+        </section>
+
+        <section class="categoria-bloco container" id="bebidas">
+            <h2 class="titulo-secao categoria-menu">Bebidas</h2>
+            <div class="container-cards">
+                <article class="card">
+                    <img src="assets/images/comidas/bebidas/coca.jpeg" alt="Coca-Cola 1 Litro">
+                    <div class="card-corpo">
+                        <h3>Coca-Cola 1 Litro</h3>
+                        <span class="preco">R$ 08,00</span>
+                    </div>
+                </article>
             </div>
-        </div>
-        <h1 class="categoria-menu">burguer-mania</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="assets/images/comidas/burguer-mania/Mania-Turbo.jpeg" alt="Mania Turbo">
-                <h2>Mania Turbo</h2>
-                <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola
-                    roxa na chapa e cheddar.</p>
-                <span>R$ 29,90</span>
-            </div>
-            <div class="card">
-                <img src="assets/images/comidas/burguer-mania/Mania-3-Queijos.jpeg" alt="Mania 3 Queijos">
-                <h2>Mania 3 Queijos</h2>
-                <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola
-                    roxa na chapa, cheddar, requeijão e cream cheese.</p>
-                <span>R$ 29,90</span>
-            </div>
-            <div class="card">
-                <img src="assets/images/comidas/burguer-mania/Mania-Cream-Cheese.jpeg" alt="mania-cream-cheese">
-                <h2>Mania Cream Cheese</h2>
-                <p>Pão, hambúrguer artesanal 200gr, bacon, alface, tomate, queijo, cebola
-                    roxa na chapa, barbecue e cream cheese.</p>
-                <span>R$ 29,90</span>
-            </div>
-        </div>
-        <h1 class="categoria-menu">Bebidas</h1>
-        <div class="container-cards">
-            <div class="card">
-                <img src="assets/images/comidas/bebidas/coca.jpeg" alt="Coca-Cola Litro">
-                <h2>Coca-Cola 1 Litro</h2>
-                <span>R$ 08,00</span>
-            </div>
-        </div>
+        </section>
     </main>
 
     <footer id="contato" class="footer">
