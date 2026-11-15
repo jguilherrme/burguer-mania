@@ -90,12 +90,11 @@ header {
 /*—————————— {Main (imagem lateral)} ——————————*/
 
 main {
-    background-color: var(--bg);
-    background-image: url("../images/home/burguers-caindo.png");
-    background-repeat: no-repeat;
-    background-position: right top;   
-    background-size: auto 100%;       
+    background:
+        url("../images/home/burguers-caindo.png") top / 120% auto repeat-y,
+        var(--bg);    
 }
+
 
 /*—————————— {Categoria} ——————————*/
 
