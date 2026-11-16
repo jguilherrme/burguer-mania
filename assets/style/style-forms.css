@@ -1,0 +1,127 @@
+:root {
+    --bg: #0a0a0a;
+    --surface: #151515;
+    --primary: #ffc21a;
+    --text: #ffffff;
+    --branco-fraco: rgba(255, 255, 255, 0.822);
+    --fonte-lulo: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
+    --fonte-circular: "Circular Std Book", Arial, Helvetica, sans-serif;
+}
+
+/*—————————— {Reset} ——————————*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*—————————— {Site} ——————————*/
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 110px;
+}
+
+/*—————————— {Body/Padrão} ——————————*/
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--fonte-circular);
+    line-height: 1.5;
+}
+
+/*—————————— {Header} ——————————*/
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    background-color: var(--bg);
+    z-index: 1000;
+    border-bottom: 3.6px solid var(--primary);
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+/*—————————— {Navegação} ——————————*/
+
+.nav-principal {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    padding-top: 31px;
+}
+
+.nav-principal a {
+    position: relative;
+    color: var(--text);
+    text-decoration: none;
+    font-family: var(--fonte-circular);
+    font-size: 1.2rem;
+    padding: 10px 5px;
+    white-space: nowrap;
+    transition: 0.5s
+}
+
+.nav-principal a:hover {
+    color: var(--primary);
+    transition: 0.5s;
+}
+
+/*—————————— {Main-Forms} ——————————*/
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+form {
+    width: 100%;
+    max-width: 550px;
+    padding: 35px;
+    background-color: var(--surface);
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(245, 183, 0, 0.12);;
+}
+/*—————————— {Avaliação de Estrelas} ——————————*/
+.estrelas {
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.estrelas input:checked ~ label {
+    color: #F5B700;
+}
+
+/*—————————— {Button-Forms} ——————————*/
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: var(--primary);
+    color: var(--bg);
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: white;
+    transform: translateY(-2px);
+}
