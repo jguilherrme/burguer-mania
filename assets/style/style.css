@@ -93,7 +93,7 @@ header {
 main {
     background:
         url("../images/home/burguers-caindo.png") top / 120% auto repeat-y,
-        var(--bg);    
+        var(--bg);
 }
 
 /*—————————— {Início} ——————————*/
@@ -349,28 +349,59 @@ main {
 p {
     margin: 0;
 }
-#avaliacoes{
-  max-width: 70%;
-  margin: 2rem auto;
-  padding: 1.5rem 1.75rem;
-  font-size: 1.125rem;
-  line-height: 1.8;
-  background: var(--surface);
-  border-left: 4px solid var(--primary);
-  border-radius: 0 12px 12px 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-  text-align: justify;
+
+#avaliacoes {
+    max-width: 70%;
+    margin: 2rem auto;
+    padding: 1.5rem 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    background: var(--surface);
+    border-left: 4px solid var(--primary);
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    text-align: justify;
 }
+
+.forms-avaliation {
+    display: flex;
+    justify-content: center;
+}
+
+
+.botao-forms {
+    display: inline-block;
+    padding: clamp(8px, 1.2vw, 16px) clamp(14px, 2vw, 28px);
+    font-size: clamp(0.7rem, 1.2vw, 1rem);
+    border-radius: 35px;
+    background: #ffd52a;
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.botao-forms:hover {
+    background-color: white;
+    transform: translateY(-3px);
+}
+
 /*—————————— {Historia} ——————————*/
-#sobre{
-  max-width: 70%;
-  margin: 2rem auto;
-  padding: 1.5rem 1.75rem;
-  font-size: 1.125rem;
-  line-height: 1.8;
-  background: var(--surface);
-  border-left: 4px solid var(--primary);
-  border-radius: 0 12px 12px 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
-  text-align: justify;
+#sobre {
+    max-width: 70%;
+    margin: 2rem auto;
+    padding: 1.5rem 1.75rem;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    background: var(--surface);
+    border-left: 4px solid var(--primary);
+    border-radius: 0 12px 12px 0;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    text-align: justify;
+}
+
+strong {
+    padding: 300px;
+    font-size: 18px;
 }
