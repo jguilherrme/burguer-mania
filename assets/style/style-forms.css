@@ -85,11 +85,16 @@ main {
     justify-content: center;
     align-items: center;
     padding: 30px 15px;
+    background:
+        url("../images/home/burguers-caindo.png") top / 120% auto repeat-y,
+        var(--bg);
 }
 
-h1, h2 {
-    text-align: center;
 
+h1,
+h2 {
+    text-align: center;
+    font-size: 20px;
 }
 
 hr {
@@ -106,23 +111,54 @@ form {
     box-shadow: 0 5px 15px rgba(245, 183, 0, 0.12);
 }
 
-.camp{
+.camp {
     padding: 10px;
     display: grid;
 }
 
-#camp-name{
-    height: 90px;
+#camp-name input[type="text"] {
+    height: 45px;
+    background-color: var(--surface);
+    color: var(--text);
+    border: var(--primary) solid 1px;
+    outline: none;
+    padding: 10px;
 }
+
+select {
+    background-color: var(--surface);
+    color: var(--text);
+    border: var(--primary) solid 1px;
+    padding: 10px;
+    outline: none;
+}
+
+textarea {
+    background-color: var(--surface);
+    color: var(--text);
+    border: var(--primary) solid 1px;
+    padding: 10px;
+    outline: none;
+    resize: none;
+}
+
 
 /*—————————— {Avaliação de Estrelas} ——————————*/
 .estrelas {
-    display: flex; 
+    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    gap: 8px;
+    font-size: 32px;
+    cursor: pointer;
 }
 
-.estrelas input:checked ~ label {
+
+.estrelas input[type="radio"] {
+    display: none;
+}
+
+.estrelas input:checked~label {
     color: #F5B700;
 }
 
@@ -130,11 +166,12 @@ form {
 button {
     width: 100%;
     padding: 15px;
+    margin-top: 20px;
     background-color: var(--primary);
     color: var(--bg);
     border: none;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.3s;
@@ -143,4 +180,86 @@ button {
 button:hover {
     background-color: white;
     transform: translateY(-2px);
+}
+
+/*—————————— {Footer} ——————————*/
+
+.footer {
+    background: var(--surface);
+    border-top: 3.6px solid var(--primary);
+    font-family: var(--fonte-circular);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr;
+    align-items: start;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 40px 40px;
+}
+
+.footer-marca img {
+    width: 180px;
+    height: auto;
+    display: block;
+}
+
+.footer-titulo {
+    margin-bottom: 16px;
+    color: var(--text);
+    font-family: var(--fonte-lulo);
+    font-weight: normal;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.footer-devs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--text);
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--text);
+    font-size: 0.95rem;
+}
+
+.info-item img {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.info-item span {
+    color: var(--text);
+}
+
+.footer-copy {
+    padding: 20px 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--branco-fraco);
 }
