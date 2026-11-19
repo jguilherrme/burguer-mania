@@ -87,6 +87,15 @@ main {
     padding: 30px 15px;
 }
 
+h1, h2 {
+    text-align: center;
+
+}
+
+hr {
+    border: var(--primary) solid 1px;
+}
+
 form {
     width: 100%;
     max-width: 550px;
@@ -94,8 +103,18 @@ form {
     background-color: var(--surface);
     border: 2px solid var(--primary);
     border-radius: 20px;
-    box-shadow: 0 5px 15px rgba(245, 183, 0, 0.12);;
+    box-shadow: 0 5px 15px rgba(245, 183, 0, 0.12);
 }
+
+.camp{
+    padding: 10px;
+    display: grid;
+}
+
+#camp-name{
+    height: 90px;
+}
+
 /*—————————— {Avaliação de Estrelas} ——————————*/
 .estrelas {
     display: flex; 
