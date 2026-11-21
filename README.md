@@ -16,10 +16,7 @@ O site foi dividido em categorias para facilitar a navegação e a visualizaçã
 burguermania/
 ├── assets/
 │   ├── images/
-│   ├── favicon/
-│   ├── food/
-│   ├── icons/
-│   └── logo/
+│   ├── style/
 └── index.html
 └── menu.html
 └── forms.html
