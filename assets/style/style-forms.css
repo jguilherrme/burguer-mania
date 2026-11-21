@@ -1,3 +1,11 @@
+/*—————————— style utilizado apenas no forms! ——————————*/
+/*—————————— {Fontes} ——————————*/
+
+@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
+@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+
+/*—————————— {Variavéis} ——————————*/
+
 :root {
     --bg: #0a0a0a;
     --surface: #151515;
