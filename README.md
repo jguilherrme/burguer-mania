@@ -20,9 +20,9 @@ burguermania/
 │   ├── food/
 │   ├── icons/
 │   └── logo/
-├── style/
 └── index.html
 └── menu.html
+└── forms.html
 ```
 
 ## Categorias do cardápio
