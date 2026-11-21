@@ -1,8 +1,8 @@
 /*—————————— style utilizado apenas no index! ——————————*/
 /*—————————— {Fontes} ——————————*/
 
-@import url(https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=Lulo+Clean+W01+One+Bold);
-@import url(https://db.onlinewebfonts.com/c/860c3ec7bbc5da3e97233ccecafe512e?family=Circular+Std+Book);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 /*—————————— {Variavéis} ——————————*/
 
@@ -12,8 +12,8 @@
     --primary: #ffc21a;
     --text: #ffffff;
     --branco-fraco: rgba(255, 255, 255, 0.822);
-    --fonte-lulo: "Lulo Clean W01 One Bold", Arial, Helvetica, sans-serif;
-    --fonte-circular: "Circular Std Book", Arial, Helvetica, sans-serif;
+    --fonte-DM: "DM Sans", Arial, Helvetica, sans-serif;
+    --fonte-Krona: "Krona One", Arial, Helvetica, sans-serif;
 }
 
 /*—————————— {Reset} ——————————*/
@@ -36,7 +36,7 @@ html {
 body {
     background: var(--bg);
     color: var(--text);
-    font-family: var(--fonte-circular);
+    font-family: var(--fonte-DM);
     line-height: 1.5;
 }
 
@@ -75,7 +75,7 @@ header {
     position: relative;
     color: var(--text);
     text-decoration: none;
-    font-family: var(--fonte-circular);
+    font-family: var(--fonte-DM);
     font-size: 1.2rem;
     padding: 10px 5px;
     white-space: nowrap;
@@ -144,8 +144,8 @@ main {
 
 .categoria {
     color: var(--primary);
-    font-family: var(--fonte-lulo);
-    letter-spacing: -0.5rem;
+    font-family: var(--fonte-Krona);
+    letter-spacing: -0.2rem;
     font-size: 3rem;
 }
 
@@ -165,23 +165,12 @@ main {
     font-size: 3rem;
 }
 
-.pequeno {
-    font-size: 0.8rem;
-    color: var(--text);
-    font-family: var(--fonte-circular);
-}
-
-.fonte-circular {
-    font-family: var(--fonte-circular);
-    font-size: 1.2rem;
-}
-
 /*—————————— {Footer} ——————————*/
 
 .footer {
     background: var(--surface);
     border-top: 3.6px solid var(--primary);
-    font-family: var(--fonte-circular);
+    font-family: var(--fonte-DM);
 }
 
 .footer-grid {
@@ -203,9 +192,9 @@ main {
 .footer-titulo {
     margin-bottom: 16px;
     color: var(--text);
-    font-family: var(--fonte-lulo);
+    font-family: var(--fonte-Krona);
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 16px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
 }
@@ -235,7 +224,7 @@ main {
 .info-item {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
+    gap: 11px;
     color: var(--text);
     font-size: 0.95rem;
 }
