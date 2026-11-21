@@ -92,7 +92,7 @@ header {
 
 main {
     background:
-        url("../images/home/burguers-caindo.png") top / 120% auto repeat-y,
+        url("../images/home/burguers-caindo.webp") top / 120% auto repeat-y,
         var(--bg);
 }
 

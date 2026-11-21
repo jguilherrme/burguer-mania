@@ -86,7 +86,7 @@ main {
     align-items: center;
     padding: 30px 15px;
     background:
-        url("../images/home/burguers-caindo.png") top / 120% auto repeat-y,
+        url("../images/home/burguers-caindo.webp") top / 120% auto repeat-y,
         var(--bg);
 }
 
