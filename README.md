@@ -20,7 +20,6 @@ burguermania/
 │   ├── food/
 │   ├── icons/
 │   └── logo/
-├── menu/
 ├── style/
 └── index.html
 └── menu.html
