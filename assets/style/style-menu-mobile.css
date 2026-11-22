@@ -1,0 +1,122 @@
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .nav-principal {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 0;
+    }
+
+    .nav-principal a {
+        font-size: 0.72rem;
+        padding: 8px 0;
+    }
+
+    .logo {
+        width: 110px;
+    }
+
+    /* Títulos */
+    .titulo-secao {
+        font-size: 2rem;
+    }
+
+    .categoria-menu {
+        font-size: 2rem;
+        padding-top: 45px;
+        padding-bottom: 35px;
+    }
+
+    /* Topo do cardápio */
+    .menu-topo {
+        padding: 40px 0 20px;
+    }
+
+    .menu-topo p {
+        font-size: 1rem;
+    }
+
+    /* Barra de categorias */
+    .categorias {
+        top: 0;
+    }
+
+    .categorias nav {
+        height: auto;
+    }
+
+    .categorias .container {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding: 12px 15px;
+        gap: 10px;
+        scrollbar-width: none;
+    }
+
+    .categorias a {
+        flex-shrink: 0;
+        white-space: nowrap;
+        padding: 10px 16px;
+        font-size: 0.7rem;
+    }
+
+    /* Cards */
+    .container-cards {
+        column-gap: 10px;
+        row-gap: 18px;
+    }
+
+    .card {
+        flex: 0 0 47%;
+    }
+
+    .card-corpo {
+        padding: 12px;
+    }
+
+    .card h3 {
+        font-size: 0.95rem;
+    }
+
+    .card p {
+        font-size: 0.85rem;
+    }
+
+    .preco {
+        font-size: 1.1rem;
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+
+    .footer-marca img {
+        width: 150px;
+        margin-inline: auto;
+    }
+
+    .footer-copy {
+        padding: 20px;
+    }
+
+    /* Informações adicionais */
+    #info {
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+}

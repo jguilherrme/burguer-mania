@@ -1,0 +1,60 @@
+/* ---------- Responsividade ---------- */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px 8px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    /* Navegação */
+    .nav-principal {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 0;
+    }
+
+    .nav-principal a {
+        font-size: 0.85rem;
+        padding: 8px 1px;
+    }
+
+    /* Main */
+    main {
+        padding: 20px 15px;
+    }
+
+    /* Formulário */
+    form {
+        padding: 25px 20px;
+    }
+
+    /* Estrelas */
+    .estrelas {
+        gap: 5px;
+        font-size: 28px;
+    }
+
+    /* Footer */
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+
+    .footer-marca {
+        margin: 0 auto;
+    }
+
+    .footer-copy {
+        padding: 20px;
+    }
+}

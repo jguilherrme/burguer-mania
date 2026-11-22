@@ -1,0 +1,97 @@
+/* ---------- Responsividade | Index ---------- */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    header {
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 8px;
+    }
+
+    .logo {
+        width: 160px;
+    }
+
+    .nav-principal {
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 10px;
+        padding-top: 0;
+    }
+
+    .nav-principal a {
+        font-size: 0.85rem;
+        padding: 8px 1px;
+    }
+
+    /* Banner */
+    .banner-conteudo {
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .banner-conteudo p {
+        font-size: 1rem;
+    }
+
+    .botao-cardapio {
+        padding: 12px 22px;
+        font-size: 0.9rem;
+    }
+
+    /* História */
+    #sobre {
+        max-width: 90%;
+        padding: 1.25rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .categoria {
+        font-size: 2rem;
+        letter-spacing: -0.1rem;
+    }
+
+    .center {
+        font-size: 2rem;
+        letter-spacing: -0.05rem;
+    }
+
+    /* Informações */
+    #info {
+        margin: 20px;
+        justify-content: center;
+    }
+
+    /* Avaliações */
+    .avaliation-list {
+        grid-template-columns: 1fr;
+    }
+
+    #avaliacoes {
+        max-width: 90%;
+        padding: 1.25rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    /* Footer */
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 40px 25px;
+    }
+
+    .footer-marca img {
+        margin: 0 auto;
+    }
+
+    .footer-copy {
+        padding: 20px;
+    }
+}
